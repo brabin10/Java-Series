@@ -18,11 +18,11 @@ public class Main {
 //		} else {
 //			System.out.println("It is cold outside");
 //		}
-		
-	Scanner scanner = new Scanner(System.in);
-	
+
+		Scanner scanner = new Scanner(System.in);
+
 		System.out.println("You are playing a game! press q or Q to quit");
-	String response = scanner.next();
+		String response = scanner.next();
 //		
 //		// to see two strings are equal we use equals method
 //		if(response.equals("q") || response.equals("Q")){
@@ -33,12 +33,10 @@ public class Main {
 //	else {
 //		System.out.println("You are still playing the game *pew pew**");
 //	}
-		
-		
-		if(!response.equals("q") && !response.equals("Q")) {
+
+		if (!response.equals("q") && !response.equals("Q")) {
 			System.out.println("You are still playing the game");
-		}
-		else {
+		} else {
 			System.out.println("You quit the game");
 		}
 	}
